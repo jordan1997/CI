@@ -11,6 +11,7 @@ JIRA_URL=<JIRA_BASE_URL>
 JIRA_USERNAME=<YOUR_JIRA_USER_NAME>
 JIRA_PASSWORD=<YOUR_JIRA_PASSWORD>
 GIT_PREVIOUS_SUCCESSFULL_COMMIT —  SHA of the previous successfully built commit from the same branch.
+BUILD_NUMBER=<New project version for Jira>
 ```
 ## For integration with Slack
 ```
