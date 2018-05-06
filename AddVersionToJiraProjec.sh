@@ -1,0 +1,1 @@
+curl -D- -u $JIRA_USERNAME:$JIRA_PASSWORD -X POST --data "{\"description\": \"***\", \"name\": \"${BUILD_NUMBER}\", \"archived\": false, \"released\": false,  \"project\": \"${PROJECT_KEY}\"}" -H "Content-Type:application/json" ${JIRA_URL}rest/api/2/version
