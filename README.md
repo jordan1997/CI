@@ -2,7 +2,7 @@
 Shell scripts for make integration with Jira and Slack.
 
 # Tutorial
-Will publish on medium in short time.
+https://medium.com/@vovochkastelmashchuk/ci-and-cd-for-people-2905d1b5a5f3
 
 # Setup
 ```
