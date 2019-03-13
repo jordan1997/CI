@@ -1,3 +1,3 @@
-KEYS=$(git shortlog -n ${GIT_PREVIOUS_SUCCESSFUL_COMMIT}..HEAD — oneline | cut -d ']' -f1 | cut -d '[' -f2 | grep "^IM")
+KEYS=$(git shortlog -n ${GIT_PREVIOUS_SUCCESSFUL_COMMIT}..HEAD | grep -E -o "($PROJECT_KEY-\d{1,})")
 
 echo ${KEYS} >> releaseNote.txt
